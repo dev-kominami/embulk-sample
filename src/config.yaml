@@ -1,0 +1,11 @@
+in:
+    type: mysql
+    host: mysql
+    user: embulk_user
+    password: embulk_pass
+    database: embulk
+    table: employee
+    # select: "col1, col2, col3"
+    # where: "col4 != 'a'"
+    # order_by: "col1 DESC"
+out: {type: stdout}
